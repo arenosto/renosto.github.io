@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanic Fast - Services</title>
+    
+    <link rel="stylesheet" href="../style.css">
+    <!--Link to bootstrap framework-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!--Link to Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Press+Start+2P&family=Saira+Semi+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Press+Start+2P&family=Roboto+Condensed:wght@300&family=Saira+Semi+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Press+Start+2P&family=Roboto+Condensed:wght@300&family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!--Header code from Booststrap with modifications made by me. Original code can be find here: https://getbootstrap.com/docs/5.3/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="tagline">
+          <!--Logo created by me using a car vector form Vector4Free website: https://www.vector4free.com/-->
+          <img id="logo" src="..\Images\Logo.png" alt="Mechanic Fast Logo" style="padding-bottom: 11px;"> 
+          <br>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-6 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="..\index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <!--Columns code from Booststrap with modifications made by me. Original code can be find here: https://getbootstrap.com/docs/5.3/layout/columns/ -->
+      <div class="containerService text-center">
+ 
+        <h3>See Our Services Below</h3>
+        <br>
+        <!--All royalty free images from https://www.vecteezy.com/vector-art/11859236-car-repair-icon-pack-for-your-website-design-logo-app-and-user-interface-car-repair-icon-filled-color-design-vector-graphics-illustration-and-editable-stroke -->
+        <div class="row">
+          <div class="col-md-6 col-md-1 servicePadding">
+            <!--
+            Code to show text relating to image on click on the image
+            Code snippet from zFunx (https://codepen.io/zFunx/pen/dvJQEY), modified by me
+            -->
+            <div class="onClickTextOverImage"> 
+            <img class="serviceIcons" src="..\Images\Services_img\brake.png" alt="Brake Icon"> 
+            <div style="padding-top: 25%;">We check if your brakes are in good condition, and we offer brake replacements for your car when necessary. </div>
+            </div>
+          </div>
+      
+  
+          <div class="col-md-6 col-md-1 servicePadding">
+            <div class="onClickTextOverImage"> 
+              <img class="serviceIcons" src="..\Images\Services_img\battery.png" alt="Battery Icon"> 
+              <div style="padding-top: 25%;">With our modern battery checking equipment, we ensure your battery is in the best condition.</div>
+            </div>
+          </div>
+      
+          <!-- Force next columns to break to new line at md breakpoint and up -->
+          <div class="w-100 d-none d-md-block"></div>
+      
+          <div class="col-md-6 col-md-1 servicePadding">
+            <div class="onClickTextOverImage"> 
+              <img class="serviceIcons" src="..\Images\Services_img\engine.png" alt="Engine Icon"> 
+            <div style="padding-top: 22%;">The engine is the heart of your car. We utilize the latest technology to diagnose, repair, and rebuild your engine.</div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-1 servicePadding">
+            <div class="onClickTextOverImage"> 
+              <img class="serviceIcons" src="..\Images\Services_img\repairs.png" alt="Repair Icon"> 
+            <div style="padding-top: 25%;">We offer a diverse range of car repair services, including Oil changes, Tire rotation, Transmission servicin, and more.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Footer code from Booststrap with modifications made by me. Original code can be find here: https://getbootstrap.com/docs/5.3/components/card/#header-and-footer-->
+      <div class="card" style="border: none;">
+        <div id="footer" class="card-body bg-dark text-white">
+          <h5 class="card-title">Mechanic Fast </h5>
+          <p class="card-text">Fast professional vehicle repair and services.</p>
+          <p class="card-text">OPEN 7 DAYS<br>
+            From 08:00 - 18:00 <br>
+            Dublin - IE 
+          </p> 
+        </div>      
+      </div>
+      <!--JS script link-->
+    <script src="../script.js"></script>
+</body>
+</html>
